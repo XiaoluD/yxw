@@ -1,0 +1,6 @@
+c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\bin\AdMachineManagement.dll.config
+c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\bin\AdMachineManagement.dll
+c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\bin\AdMachineManagement.pdb
+c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.csprojResolveAssemblyReference.cache
+c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.dll
+c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.pdb
