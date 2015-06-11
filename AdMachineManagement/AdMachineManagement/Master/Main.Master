@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AdMachineManagement.Master.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="navbar navbar-duomi navbar-static-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/Admin/index.html" id="logo">配置管理系统（流量包月）
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
+                        <li class="active">
+                            <a href="#">
+                                <i class="glyphicon glyphicon-th-large"></i>
+                                首页
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#systemSetting" class="nav-header collapsed" data-toggle="collapse">
+                                <i class="glyphicon glyphicon-user"></i>
+                                用户管理
+                               <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul id="systemSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
+                                <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>角色管理</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-user"></i>修改用户管理</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-edit"></i>修改密码</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./plans.html">
+                                <i class="glyphicon glyphicon-phone"></i>
+                                设备管理
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="./grid.html">
+                                <i class="glyphicon glyphicon-file"></i>
+                                素材管理
+                            <span class="label label-warning pull-right">5</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="./charts.html">
+                                <i class="glyphicon glyphicon-retweet"></i>
+                                任务管理
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-10">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+    <link href="../Content/leftcss/left.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>
