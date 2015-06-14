@@ -14,7 +14,7 @@ input {
 }
 
 .login-page {
-    /*background: #303641;*/
+    background: #303641;
 }
 
 .loginBox {
@@ -37,14 +37,19 @@ input {
     margin-top: -250px;
 }
 
-    .loginBox h2 {
-        height: 45px;
-        font-size: 20px;
-        font-weight: normal;
-    }
+.btn-primary-logn {
+    background-color: #2D89EF;
+    border-color: #2D89EF;
+}
 
-    .loginBox .left {
-        border-right: 1px solid #ccc;
-        height: 100%;
-        padding-right: 20px;
-    }
+.loginBox h2 {
+    height: 45px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.loginBox .left {
+    border-right: 1px solid #ccc;
+    height: 100%;
+    padding-right: 20px;
+}

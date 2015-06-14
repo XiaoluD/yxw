@@ -59,6 +59,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\leftcss\left.css" />
     <Content Include="Content\logoncss\login.css" />
+    <Content Include="Content\ResJs\Res.js" />
     <Content Include="css\bootstrap-responsive.css" />
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -120,6 +121,7 @@
     <Content Include="js\modernizr.js" />
     <Content Include="js\retina.js" />
     <Content Include="Login\Login.aspx" />
+    <Content Include="Login\Reg.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -143,11 +145,13 @@
     <Content Include="font\glyphiconshalflings-regular.eot" />
     <Content Include="font\glyphiconshalflings-regular.ttf" />
     <Content Include="font\glyphiconshalflings-regular.woff" />
+    <Content Include="Master\blankHeader.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="test.aspx" />
     <Content Include="test1.aspx" />
+    <Content Include="test2.aspx" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
@@ -165,6 +169,20 @@
     </Compile>
     <Compile Include="Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Reg.aspx.cs">
+      <DependentUpon>Reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Reg.aspx.designer.cs">
+      <DependentUpon>Reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\blankHeader.Master.cs">
+      <DependentUpon>blankHeader.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\blankHeader.Master.designer.cs">
+      <DependentUpon>blankHeader.Master</DependentUpon>
     </Compile>
     <Compile Include="Master\Dash.Master.cs">
       <DependentUpon>Dash.Master</DependentUpon>
@@ -194,6 +212,13 @@
     </Compile>
     <Compile Include="test1.aspx.designer.cs">
       <DependentUpon>test1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test2.aspx.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test2.aspx.designer.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

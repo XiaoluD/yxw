@@ -4,3 +4,9 @@ c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachine
 c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.csprojResolveAssemblyReference.cache
 c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.dll
 c:\users\木\documents\visual studio 2013\Projects\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.pdb
+C:\Users\木\Documents\GitHub\yxw\AdMachineManagement\AdMachineManagement\bin\AdMachineManagement.dll.config
+C:\Users\木\Documents\GitHub\yxw\AdMachineManagement\AdMachineManagement\bin\AdMachineManagement.dll
+C:\Users\木\Documents\GitHub\yxw\AdMachineManagement\AdMachineManagement\bin\AdMachineManagement.pdb
+C:\Users\木\Documents\GitHub\yxw\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.csprojResolveAssemblyReference.cache
+C:\Users\木\Documents\GitHub\yxw\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.dll
+C:\Users\木\Documents\GitHub\yxw\AdMachineManagement\AdMachineManagement\obj\Debug\AdMachineManagement.pdb
